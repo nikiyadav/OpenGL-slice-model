@@ -1,0 +1,6 @@
+This module contains Part 4 i.e. slice the model.
+
+I have sliced my model about x=0 plane. I have considered three cases:
+case 1: When x-coordinate of all vertices of a triangle is <= 0 then put that traingle in Left buffer.
+case 2: When x-coordinate of all vertices of a triangle is > 0 then put that traingle in Right buffer.
+case 3: In this case 2 edges of triangle intersects the plane, I have calculated those new vertices, and then accordingly added 3 new triangles in the buffers. 
